@@ -1,0 +1,8 @@
+{
+  "name": "ConnectX",
+  "description": "A real-time chat application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

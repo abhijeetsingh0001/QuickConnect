@@ -1,0 +1,22 @@
+{
+  "name": "connectx",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "Backend"
+  ],
+  "scripts": {
+    "start": "tsx Backend/index.js",
+    "build": "npm run build --workspace=frontend",
+    "dev": "npm run build --workspace=frontend && npm run dev --workspace=backend"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.2",
+    "postgres": "^3.4.9"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.23.13"
+  }
+}
